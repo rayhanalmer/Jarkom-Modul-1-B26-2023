@@ -146,3 +146,27 @@ Kedua filter expression tersebut digabungkan mengguanakan logical operator `&&` 
 ![9_terminal](https://github.com/rayhanalmer/Jarkom-Modul-1-B26-2023/blob/main/images/9_terminal.png)
 
 ## Soal 10
+Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet!
+
+### Jawaban
+```
+dhafin:kesayangank0k0
+```
+
+### Cara Pengerjaan
+Pertama-tama kita akan memfilter paket pada soal no 10 dengan memunculkan paket dengan protokol telnet saja. Lalu kita ambil 1 paket dengan nomor 236 untuk di follow dan kita cek TCP stream-nya yang terlihat seperti dibawah ini. 
+
+![10  telnet](https://github.com/faiznoviandra/6.wireshark/assets/116566988/06a899da-8bf7-4111-bedc-1dede0c48a31)
+![10  Jawaban](https://github.com/faiznoviandra/6.wireshark/assets/116566988/642c52d3-1cf4-4520-b58c-fe7ee933abae)
+
+
+Bisa dilihat username dan password yang kita perlukan yaitu ‘dhafin’ dan ‘kesayangannyak0k0’, lalu kita masukkan jawabannya di terminal dan muncul seperti dibawah ini.
+
+### Dokumentasi
+![10  Terminal](https://github.com/faiznoviandra/6.wireshark/assets/116566988/7049abc9-dde4-4420-9040-733996cd945f)
+
+### Kendala Yang Dialami
+Tidak ada kendala yang dialami
+
+
+
