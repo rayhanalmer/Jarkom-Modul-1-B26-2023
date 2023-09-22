@@ -24,6 +24,9 @@ Anggota Kelompok
 Berapa jumlah packet yang menuju IP 184.87.193.88?
 
 ### Jawaban
+```
+6 
+```
 
 ### Cara Pengerjaan
 
@@ -35,6 +38,9 @@ Berapa jumlah packet yang menuju IP 184.87.193.88?
 Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yang menuju port 80! (Jika terdapat lebih dari 1 port, maka urutkan sesuai dengan abjad)
 
 ### Jawaban
+```
+tcp.dstport == 80 || udp.dstport == 80
+```
 
 ### Cara Pengerjaan
 
@@ -46,7 +52,9 @@ Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yan
 Berikan kueri filter sehingga wireshark hanya mengambil paket yang berasal dari alamat 10.51.40.1 tetapi tidak menuju ke alamat 10.39.55.34!
 
 ### Jawaban
-
+```
+ip.src == 10.51.40.1 && ip.dst != 10.39.55.34
+```
 ### Cara Pengerjaan
 
 ### Dokumentasi
