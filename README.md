@@ -1,4 +1,4 @@
-# Jarkom-Modul-1-B26-2023
+![Screenshot (64)](https://github.com/rayhanalmer/Jarkom-Modul-1-B26-2023/assets/103409628/16db398d-0701-4c2d-8c3a-9683952e48b7)# Jarkom-Modul-1-B26-2023
 
 Anggota Kelompok 
 
@@ -47,6 +47,28 @@ Lalu pada menu UDP nya kita bisa melihat nilai checksum yang diinginkan
 ![no4b](https://github.com/rayhanalmer/Jarkom-Modul-1-B26-2023/blob/main/images/no4-b.jpg)
 
 ## Soal 5
+Elshe menemukan suatu file packet capture yang menarik. Bantulah Elshe untuk menganalisis file packet capture tersebut.  
+a. Berapa banyak packet yang berhasil di capture dari file pcap tersebut?  
+b. Port berapakah pada server yang digunakan untuk service SMTP?  
+c. Dari semua alamat IP yang tercapture, IP berapakah yang merupakan public IP?  
+
+### Jawaban
+```
+a. 60
+b. 25
+c. 74.53.140.153
+```
+
+### Cara Pengerjaan
+![5d_jawaban](https://github.com/rayhanalmer/Jarkom-Modul-1-B26-2023/blob/main/images/5d_jawaban.png)
+![5a_jawaban](https://github.com/rayhanalmer/Jarkom-Modul-1-B26-2023/blob/main/images/5a_jawaban.png)
+![5b_jawaban](https://github.com/rayhanalmer/Jarkom-Modul-1-B26-2023/blob/main/images/5b_jawaban.png)
+![5c_jawaban](https://github.com/rayhanalmer/Jarkom-Modul-1-B26-2023/blob/main/images/5c_jawaban.png)
+
+### Dokumentasi
+![5_terminal](https://github.com/rayhanalmer/Jarkom-Modul-1-B26-2023/blob/main/images/5_terminal.png)
+
+### Kendala Yang Dialami
 
 ## Soal 6
 
@@ -59,8 +81,10 @@ Berapa jumlah packet yang menuju IP 184.87.193.88?
 ```
 
 ### Cara Pengerjaan
+![7_jawaban](https://github.com/rayhanalmer/Jarkom-Modul-1-B26-2023/blob/main/images/7_jawaban.png)
 
 ### Dokumentasi
+![7_terminal](https://github.com/rayhanalmer/Jarkom-Modul-1-B26-2023/blob/main/images/7_terminal.png)
 
 ### Kendala Yang Dialami
 
@@ -75,6 +99,7 @@ tcp.dstport == 80 || udp.dstport == 80
 ### Cara Pengerjaan
 
 ### Dokumentasi
+![8_terminal](https://github.com/rayhanalmer/Jarkom-Modul-1-B26-2023/blob/main/images/8_terminal.png)
 
 ### Kendala Yang Dialami
 
@@ -88,6 +113,7 @@ ip.src == 10.51.40.1 && ip.dst != 10.39.55.34
 ### Cara Pengerjaan
 
 ### Dokumentasi
+![9_terminal](https://github.com/rayhanalmer/Jarkom-Modul-1-B26-2023/blob/main/images/9_terminal.png)
 
 ### Kendala Yang Dialami
 
