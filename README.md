@@ -1,4 +1,4 @@
-![Screenshot (64)](https://github.com/rayhanalmer/Jarkom-Modul-1-B26-2023/assets/103409628/16db398d-0701-4c2d-8c3a-9683952e48b7)# Jarkom-Modul-1-B26-2023
+# Jarkom-Modul-1-B26-2023
 
 Anggota Kelompok 
 
@@ -97,11 +97,12 @@ tcp.dstport == 80 || udp.dstport == 80
 ```
 
 ### Cara Pengerjaan
+Query `tcp.dstport == 80` digunakan untuk menampilkan semua paket dengan protokol TCP dengan destination port 80.  
+Query `udp.dstport == 80` digunakan untuk memfilter paket UDP dengan destination port 80.
+Kedua filter expression tersebut digabungkan menggunakan logical operator `||` (or).
 
 ### Dokumentasi
 ![8_terminal](https://github.com/rayhanalmer/Jarkom-Modul-1-B26-2023/blob/main/images/8_terminal.png)
-
-### Kendala Yang Dialami
 
 ## Soal 9
 Berikan kueri filter sehingga wireshark hanya mengambil paket yang berasal dari alamat 10.51.40.1 tetapi tidak menuju ke alamat 10.39.55.34!
@@ -111,10 +112,11 @@ Berikan kueri filter sehingga wireshark hanya mengambil paket yang berasal dari 
 ip.src == 10.51.40.1 && ip.dst != 10.39.55.34
 ```
 ### Cara Pengerjaan
+Query `ip.src == 10.51.40.1` digunakan untuk menampilkan semua paket yang memiliki source alamat ip 10.51.40.1.  
+Query `ip.dst != 10.39.55.34` digunakan untuk memfilter paket sehingga tidak ada paket yang memiliki destination dengan alamat 10.39.55.34.    
+Kedua filter expression tersebut digabungkan mengguanakan logical operator `&&` sehingga memenuhi permintaan soal.  
 
 ### Dokumentasi
 ![9_terminal](https://github.com/rayhanalmer/Jarkom-Modul-1-B26-2023/blob/main/images/9_terminal.png)
-
-### Kendala Yang Dialami
 
 ## Soal 10
