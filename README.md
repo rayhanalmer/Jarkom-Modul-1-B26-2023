@@ -60,15 +60,21 @@ c. 74.53.140.153
 ```
 
 ### Cara Pengerjaan
-![5d_jawaban](https://github.com/rayhanalmer/Jarkom-Modul-1-B26-2023/blob/main/images/5d_jawaban.png)
-![5a_jawaban](https://github.com/rayhanalmer/Jarkom-Modul-1-B26-2023/blob/main/images/5a_jawaban.png)
-![5b_jawaban](https://github.com/rayhanalmer/Jarkom-Modul-1-B26-2023/blob/main/images/5b_jawaban.png)
-![5c_jawaban](https://github.com/rayhanalmer/Jarkom-Modul-1-B26-2023/blob/main/images/5c_jawaban.png)
+Untuk mendapatkan jawaban kami membuka package ke 14 yang terdapat informasi pass.  
+Lalu buka package dengan klik kanan > follow > TCP Stream.  
+Lalu akan ditemukan password seperti gambar dibawah yang harus di decode terlebih dahulu dalam Base64.
+![5d_jawaban](https://github.com/rayhanalmer/Jarkom-Modul-1-B26-2023/blob/main/images/5d_jawaban.png)  
+Setelah didecode password yang didapatkan kita gunakan untuk membuka file zip.  
+Isi file zip menampilkan nc/ncat seperti gambar berikut yang digunakan untuk menjawab soal.  
+![5a_jawaban](https://github.com/rayhanalmer/Jarkom-Modul-1-B26-2023/blob/main/images/5a_jawaban.png)  
+Untuk point a bisa kita lihat di pojok kanan bawah terdapat informasi banyak package yang berhasil dicapture yaitu sebanyak 60 package.
+![5b_jawaban](https://github.com/rayhanalmer/Jarkom-Modul-1-B26-2023/blob/main/images/5b_jawaban.png)  
+Untuk menjawab point b dan c, bisa ditemukan di informasi package seperti gambar dibawah.  
+Ditemukan port sever yang digunakan untuk service SMTP adalah 25 dan IP yang merupakan IP public adalah 74.53.140.153  
+![5c_jawaban](https://github.com/rayhanalmer/Jarkom-Modul-1-B26-2023/blob/main/images/5c_jawaban.png)  
 
 ### Dokumentasi
 ![5_terminal](https://github.com/rayhanalmer/Jarkom-Modul-1-B26-2023/blob/main/images/5_terminal.png)
-
-### Kendala Yang Dialami
 
 ## Soal 6
 
@@ -81,6 +87,8 @@ Berapa jumlah packet yang menuju IP 184.87.193.88?
 ```
 
 ### Cara Pengerjaan
+Untuk menemukan jawaban kami melakukan query filter sesuai permintaan soal dengan query `ip.dst == 184.87.193.88`.
+Bisa dilihat pada gambar dibawah hasil package yang terdisplay yaitu sebanyak 6 package.
 ![7_jawaban](https://github.com/rayhanalmer/Jarkom-Modul-1-B26-2023/blob/main/images/7_jawaban.png)
 
 ### Dokumentasi
@@ -98,7 +106,7 @@ tcp.dstport == 80 || udp.dstport == 80
 
 ### Cara Pengerjaan
 Query `tcp.dstport == 80` digunakan untuk menampilkan semua paket dengan protokol TCP dengan destination port 80.  
-Query `udp.dstport == 80` digunakan untuk memfilter paket UDP dengan destination port 80.
+Query `udp.dstport == 80` digunakan untuk memfilter paket UDP dengan destination port 80.  
 Kedua filter expression tersebut digabungkan menggunakan logical operator `||` (or).
 
 ### Dokumentasi
