@@ -77,6 +77,24 @@ Ditemukan port sever yang digunakan untuk service SMTP adalah 25 dan IP yang mer
 ![5_terminal](https://github.com/rayhanalmer/Jarkom-Modul-1-B26-2023/blob/main/images/5_terminal.png)
 
 ## Soal 6
+Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggemar film detektif. sebagai teman yang baik, Ia selalu mengajak slamet untuk bermain valoranT bersama. suatu malam, terjadi sebuah hal yang tak terdUga. ketika udin mereka membuka game tersebut, laptop udin menunjukkan sebuah field text dan Sebuah kode Invalid bertuliskan "server SOURCE ADDRESS 7812 is invalid". ketika ditelusuri di google, hasil pencarian hanya menampilkan a1 e5 u21. jiwa detektif slamet pun bergejolak. bantulah udin dan slamet untuk menemukan solusi kode error tersebut.
+
+### Jawaban
+```
+JDRNJA
+```
+
+### Cara Pengerjaan
+Untuk menemukan jawaban tersebut kita harus fokus pada clue yang ada di pertanyaan. kemuadian buka apk Wireshark dan filter dengan tulisan Frame.number == "code yang di pertanyaan". kemudian bakal muncul angka yang disitu ialah terdapat kode seperti a=1, b=2 dan seterusnya maka kita tinggan baca saja angka dan kalkulasikan.
+![6  wireshark](https://github.com/faiznoviandra/6.wireshark/assets/116566988/460d10d5-c333-4688-86a5-5c2e10e94d5d)
+
+### Dokumentasi Terminal
+![6  Terminal](https://github.com/faiznoviandra/6.wireshark/assets/116566988/bf203ffa-68ea-47ca-808b-56304be05d56)
+
+### Kendala Yang Dialami
+Pada soal ini kendala yang saya temukann ialah saya tidak mengetahui bahwa ada code disoal
+
+
 
 ## Soal 7
 Berapa jumlah packet yang menuju IP 184.87.193.88?
