@@ -159,7 +159,6 @@ Pertama-tama kita akan memfilter paket pada soal no 10 dengan memunculkan paket 
 ![10  telnet](https://github.com/faiznoviandra/6.wireshark/assets/116566988/06a899da-8bf7-4111-bedc-1dede0c48a31)
 ![10  Jawaban](https://github.com/faiznoviandra/6.wireshark/assets/116566988/642c52d3-1cf4-4520-b58c-fe7ee933abae)
 
-
 Bisa dilihat username dan password yang kita perlukan yaitu ‘dhafin’ dan ‘kesayangannyak0k0’, lalu kita masukkan jawabannya di terminal dan muncul seperti dibawah ini.
 
 ### Dokumentasi
